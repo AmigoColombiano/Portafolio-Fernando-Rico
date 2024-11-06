@@ -1,12 +1,12 @@
 // Variables globales para el manejo de audio
 const audioPlayer = document.getElementById('backgroundMusic');
 const musicPaths = {
-    'about': '/MUSICA/about.mp3',
-    'experience': '/MUSICA/experience.mp3',
-    'publications': '/MUSICA/publications.mp3',
-    'achievements': '/MUSICA/achievements.mp3',
-    'business': '/MUSICA/business.mp3',
-    'contact': '/MUSICA/contact.mp3'
+    'about': './MUSICA/about.mp3',
+    'experience': './MUSICA/experience.mp3',
+    'publications': './MUSICA/publications.mp3',
+    'achievements': './MUSICA/achievements.mp3',
+    'business': './MUSICA/business.mp3',
+    'contact': './MUSICA/contact.mp3'
 };
 
 // Descripciones detalladas para cada sección
