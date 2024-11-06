@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Rico Contreras - Portafolio</title>
+    <link href="/CSS/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <img src="/IMAGENES/tu_foto.jpg" alt="Foto de Fernando Rico" class="profile-img">
+            <div class="header-text">
+                <h1>Fernando Rico Contreras</h1>
+                <p>Ingeniero de Sistemas e Investigador en Tecnologías de la Información y Comunicaciones</p>
+                <p>Egresado de la Universidad Nacional de Colombia</p>
+                <p>Especializado en Redes y Telecomunicaciones - UCC</p>
+            </div>
+        </div>
+    </header>   
+
+    <nav>
+        <button class="nav-button" onclick="showSection('about')" data-music="music1.mp3">Sobre Mí</button>
+        <button class="nav-button" onclick="showSection('experience')" data-music="music2.mp3">Experiencia</button>
+        <button class="nav-button" onclick="showSection('publications')" data-music="music3.mp3">Publicaciones</button>
+        <button class="nav-button" onclick="showSection('achievements')" data-music="music4.mp3">Reconocimientos</button>
+        <button class="nav-button" onclick="showSection('business')" data-music="music5.mp3">Idea de Negocio</button>
+        <button class="nav-button" onclick="showSection('contact')" data-music="music6.mp3">Contacto</button>
+    </nav>
+
+    <div id="description-box" class="button-description"></div>
+
+<main>
+    <section id="about" class="content-section">
+        <h2>Sobre Mí</h2>
+        <p>Soy un ingeniero de sistemas con más de 30 años de experiencia en desarrollo de software y consultoría tecnológica. Mi experiencia abarca desde lenguajes clásicos como Assembler, BASIC, dBase, Clipper, COBOL, Pascal y C, hasta tecnologías modernas como JavaScript y frameworks contemporáneos.</p>
+    </section>
+ 
+    <section id="experience" class="content-section">
+        <h2>Experiencia Profesional</h2>
+        <ul>
+            <li>7 años en el sector gubernamental en el depatamento de sistemas de 4 entidades a nivel nacional y contratista de alcaldias locales</li>
+            <li>13 años en el sector privado en mas de 10 empresas nacionales y multinacionales</li>
+            <li>Gerente de SELECTRO LTDA 1991-1998</li>
+            <li>Consultor nacional e interventor en tecnología de la información - 1992</li>
+            <li>Coordinador de proyectos con participación inventiva en el 50% de los proyectos</li>
+            <li>Analista Programador Senior, Administrador de BD, Desarrollador web y Server Manager</li>
+            <li>Experto en soporte a usuarios y resolución de conflictos en áreas de tecnología</li>
+            <li>Investigador en e-Commerce y Economía Solidaria Sustentable</li>
+            <li>Director de FUNDAPRO entidad sin ánimo de lucro período 2005-2008</li>
+            <li>Buenas bases en Comercio Justo y desarrollo de Tiendas Virtuales Multinivel</li>
+            <li>Investigador actual en IA para e-Commerce y nuevas tecnologías de Frontend/Backend</li>
+            <li>Gerente de e-plus.SAS - 2024</li>
+            <li>Director de PELECHAR Colombia Entidad sin ánimo de lucro - 2024</li>
+        </ul>
+    </section>
+
+    <section id="publications" class="content-section">
+        <h2>Publicaciones y Logros</h2>
+        <ul>
+            <li>Fundador de la revista literaria: Rapsodia - 1988</li>
+            <li>Creador del método: Ajeposp - Libro Ajedrez Posicional Sin Pensar - 1989</li>
+            <li>Desarrollo de software especializado para Ajedrez Colombiano - 1990</li>
+            <li>Desarrollador del Sistema de Salud de ECOPETROL - 1991</li>
+            <li>Tesis de Grado: S.I. para el manejo de proyectos en Inovación Tecnológica - 1992</li>
+            <li>Formación SENA: Instructor en Pedagogía en Informática - Bogotá 1994</li>
+            <li>Libro de poemas: Poesía al Paso: Gritos de Asombro - Compendio 1980 a 2023</li>
+            <li>Mas de 20 cursos en temas informáticos y 20 en temas de crecimiento personal entre 1986 y 2024</li>
+        </ul>
+    </section>
+
+    <section id="achievements" class="content-section">
+        <h2>Reconocimientos</h2>
+        <h3>Ajedrez:</h3>
+        <ul>
+            <li>Primer premio Campeonato Distrital de Empresas - Bogotá 1982</li>
+            <li>Primer premio Campeonato Social y Deportivo Las Tortugas - Bogotá 1985</li>
+            <li>Primer premio Campeonato Centro de Formación SENA de Teusaquillo - Bogotá 1994</li>
+        </ul>
+        <h3>Literatura:</h3>
+        <ul>
+            <li>Segundo Premio Concurso de Poesía Universitaria UN - 1987</li>
+            <p>Segundo Premio Iberoamericano a Mejor Publicación Universitaria - 1988</p>
+        </ul>
+        <h3>Atletismo:</h3>
+        <ul>
+            <p>Subcampeón Juegos Nacionales de Atletismo Empresas Petroleras - Bogotá 1990</p>
+            <p>Tercer puesto en Campeonato Nacional de atletismo máster - Medellín 2005</p>
+            <p>Subcampeón Nacional de Cross Country - Barranquilla 2015</p>
+        </ul>
+    </section>
+
+    <section id="business" class="content-section">
+        <h2>Idea de Negocio</h2>
+        <ul>
+            <p>Creador de la empresa privada de tecnología en Electricidad, Sistemas y Electróica SELECTRO LTDA - 1991</p>
+            <p>Fundador de FUNDAPRO Otra Colombia es Posible - 2005</p>
+
+            <p>Creador de la empresa privada e-plus - Grupo de Innovación Empresarial e e-Commerce - 2024</p>
+        </ul>
+    </section>
+ 
+    <section id="contact" class="content-section">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com/AmigoColombiano" target="_blank" title="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/fernando-rico-contreras-42911230/" target="_blank" title="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://www.instagram.com/amigocolombiano" target="_blank" title="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://web.facebook.com/amigocolombiano/" target="_blank" title="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+        </div>
+        <p>© 2024 Fernando Rico Contreras</p>
+    </footer>
+
+    <audio id="backgroundMusic" loop></audio>
+
+    <div id="description-box"></div>
+
+    <script src="/JS/script.js"></script>
+</body>
+</html>
